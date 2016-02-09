@@ -1,27 +1,30 @@
 # uifaces downloader
 
-Need images [UIFaces][] locally? Here you go.
+Need images from [UIFaces][] locally? Here you go.
 
 > ![](https://raw.githubusercontent.com/rstacruz/uifaces-downloader/gh-pages/screencast.gif)
 
 ## Usage
 
-Uifaces downloader comes in two flavors.
+👤 __Random images__
 
-👤 __Random images__:<br>
-  Downloads around 250 random images from [UIFaces.com][UIFaces] into `images/`.
-  
- > `curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/download.sh | bash`
+> Downloads around 250 random images from [UIFaces.com][UIFaces] into `images/`.
 
-👤 __Hand-picked images__ *(recommended)*:<br>
-  Downloads around 200 images of hand-picked avatars that exclude logos, illustrations, no-face pictures, and overly-stylized images.
+```sh
+curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/download.sh | bash
+```
 
-> `curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/picked.sh | bash`
+👤 __Hand-picked images__ *(recommended)*
 
+> Downloads around 200 images of hand-picked avatars that exclude logos, illustrations, no-face pictures, and overly-stylized images.
+
+```sh
+curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/picked.sh | bash
+```
 
 ## What for?
 
-- Useful for building placeholders with [Craft](http://labs.invisionapp.com/craft)
+- Useful for building placeholders with [Craft](http://labs.invisionapp.com/craft) in Sketch/Photoshop
 - For making sample data in applications
 - ...whatever you can think of, really
 
