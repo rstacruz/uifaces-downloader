@@ -2,10 +2,14 @@
 
 Need images [UIFaces][] locally? Here you go.
 
+> ![](https://raw.githubusercontent.com/rstacruz/uifaces-downloader/gh-pages/screencast.gif)
+
+## Usage
+
 * `bash download.sh` — downloads around 250 images into `images/`.
 * `bash picked.sh` — downloads around 200 images of hand-picked avatars that exclude logos, illustrations, no-face pictures, and overly-stylized images.
 
-What for?
+## What for?
 
 - Useful for building placeholders with [Craft](http://labs.invisionapp.com/craft)
 - For making sample data in applications
