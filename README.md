@@ -6,19 +6,18 @@ Need images [UIFaces][] locally? Here you go.
 
 ## Usage
 
-Comes in two flavors:
+Uifaces downloader comes in two flavors.
 
-```
-curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/download.sh | bash
-```
+👤 __Random images__:<br>
+  Downloads around 250 random images from [UIFaces.com][UIFaces] into `images/`.
+  
+ > `curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/download.sh | bash`
 
-Downloads around 250 images into `images/`.
+👤 __Hand-picked images__ *(recommended)*:<br>
+  Downloads around 200 images of hand-picked avatars that exclude logos, illustrations, no-face pictures, and overly-stylized images.
 
-```
-curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/picked.sh | bash
-```
+> `curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/picked.sh | bash`
 
-Downloads around 200 images of hand-picked avatars that exclude logos, illustrations, no-face pictures, and overly-stylized images.
 
 ## What for?
 
