@@ -6,8 +6,19 @@ Need images [UIFaces][] locally? Here you go.
 
 ## Usage
 
-* `bash download.sh` — downloads around 250 images into `images/`.
-* `bash picked.sh` — downloads around 200 images of hand-picked avatars that exclude logos, illustrations, no-face pictures, and overly-stylized images.
+Comes in two flavors:
+
+```
+curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/download.sh | bash
+```
+
+Downloads around 250 images into `images/`.
+
+```
+curl -s https://raw.githubusercontent.com/rstacruz/uifaces-downloader/master/picked.sh | bash
+```
+
+Downloads around 200 images of hand-picked avatars that exclude logos, illustrations, no-face pictures, and overly-stylized images.
 
 ## What for?
 
